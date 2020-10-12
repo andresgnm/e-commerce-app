@@ -34,7 +34,7 @@ const data = {
             price: 220,
             countInStock: 0,
             brand: 'Lacoste',
-            rating: 3.0,
+            rating: 1.0,
             numReviews:17,
             description:'High quality product',
 
