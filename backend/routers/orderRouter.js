@@ -11,7 +11,7 @@ orderRouter.post('/',isAuth,expressAsyncHandler(async(req,res)=>{
     } else {
         const order = new Order({
             orderItems: req.body.orderItems,
-            shippingAdress: req.body.shippingAdress,
+            shippingAddress: req.body.shippingAddress,
             paymentMethod: req.body.paymentMethod,
             itemsPrice: req.body.itemsPrice,
             shippingPrice: req.body.shippingPrice,
